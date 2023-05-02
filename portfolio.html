@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <title> personal portfolio </title>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="portfolio.css" > 
+        <script src="https://kit.fontawesome.com/a96117dfb6.js" crossorigin="anonymous"></script>
+    </head>
+
+<body background="photo3.jpg">
+
+<div id = "header">
+    <div class="container">
+        <nav>
+            <img src="logo_page.jpg" class="logo"alt="">
+        
+        <ul>
+            <li> <a href="#header">Home</a></li>
+            <li> <a href="#about">About</a></li>
+            <!-- <li> <a href="#">Academics</a></li> -->
+            <li> <a href="#projects">Projects Done</a></li>
+            <li> <a href="#contact">Contact</a></li>
+
+        
+        </ul>
+        </nav>
+        <div class="header-text">
+            <p>Student</p>
+        <h1>Hi,I am <span>Anoop </span><br>Boby Manuel </h1>
+        
+        </div>
+    </div>
+    
+</div>
+<!-- About meeee -->
+
+<div id="about">
+
+    <div class="container">
+        <div class="row">
+
+            <div class="about-col-1">
+               <img src="photo3.jpg "alt="">
+            </div>
+                <div class="about-col-2">
+                 <h1 class="sub-title">
+                    About me
+                 </h1>
+
+
+                 <p > 
+                    Hi,My name is Anoop Boby Manuel, i am coming from India,I am living in Kerala a small part of India present in the southern part of India.
+                    I am currently Studying computer science specialising in Artificial Intelligence 
+                     I am hoping to get a job in the field of Web development    
+                     I am passionate in learning new things and i hope to explore more things in the field of computer-science.
+                
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">skills</p>
+                    <p class="tab-links"onclick="opentab('experience')">experience</p>
+                    <p class="tab-links"onclick="opentab('Education')">Education</p>
+                    
+
+
+                </div>
+
+                <div class="tab-contents active-tab" id = "skills">
+                    <ul>
+                        <li><span>UI/UX<br></span> Designing the app interface</li>
+                        <li><span>Web development<br></span> Developing websites</li>
+                        <li><span>Data science<br></span> Using the machine learning models for prediction</li>
+                    </ul>
+                     
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2021-2025<br></span> Studying Btech Ai in Amrita</li>
+                        <li><span>2023<br></span> Member of Webdev club under ACM</li>
+                      
+                    </ul>
+                     
+                </div>
+                <div class="tab-contents" id ="Education">
+                    <ul>
+                        <li><span>2021-2025<br></span>Btech in Amrita Vishwa Vidyapeedam Computer science specialising in Artificial Intelligence </li>
+                        <li><span>2021<br></span> Passed 12th from Christ Nagar Central School</li>
+                        <li><span>2019<br></span> Passed 10th from St Thomas Central School</li>
+                        
+                      
+                    </ul>
+                     
+                </div>
+                </div>
+             
+        </div>
+    </div>
+</div>
+
+<!-- projects Done -->
+
+
+<div id = "projects">
+    <div class = "container">
+        <h1 class = "sub-title" > Projects Done</h1>
+         <div class = "projects-done">
+            
+            <div>
+                <i class="fa-solid fa-music" style="color: #ffffff;"></i>
+                <h2>
+                    Music app 
+                </h2>
+                <p>
+                    made a music app with java using the concepts of Data structures and algorithym
+                </p>
+                <a href="#">Learn more </a>
+                </div>
+               
+                <div>
+                    <i class="fa-light fa-robot" style="color: #ffffff;"></i>
+                    <h2>
+
+                    
+                    Home automation system
+                </h2>
+                <p>
+                    made an home automation system with the help of tinkercad,modified the functions of the devices with the help of c++
+               
+                </p>
+                <a href="#">Learn more </a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-car" style="color: #ffffff;"></i>
+                <h2>   
+                   
+                    Car Showroom using java
+                </h2>
+                
+                <p>A car showroom was implemented using java, a data management system was created </p>
+                <a href="#">Learn more </a>
+                   
+                </div>
+                <div>
+                    <i class="fa-solid fa-user-doctor" style="color: #ffffff;"></i>
+                <h2>
+                    Health Cost Predictor
+                </h2>
+                <p>
+                    A health cost Predictor build with the help of machine learning and using tools like linear regression 
+                </p>
+                <a href="#">Learn more </a>
+                </div>
+            </div>
+         </div>
+
+    </div>
+
+</div>
+
+
+<!-- contact me  -->
+
+
+<div id = "contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                
+                    <h1 class = "sub-title">Contact me </h1>
+
+                   <p>Bmanoop7@gmail.com</p>
+
+                        <div class="Social-icons">
+                           <a href=""><i class="fa-brands fa-linkedin" ></i></a>
+                           <a href=""><i class="fa-brands fa-instagram" ></i></a>
+                           <a href=""><i class="fa-brands fa-github" ></i></a>
+                           
+                        </div>    
+                        
+                        
+            </div>
+            <div class="contact-right">
+              <form>
+                <input type="text" name="name" placeholder="your name" required>
+                <input type="email" name="email" placeholder="your email" required>
+                <textarea name="Message"rows="6"placeholder="yourMessage" ></textarea>
+                <button type="submit"class = "btn btn-2">submit</button>
+              </form>                
+            </div>
+           
+           
+        </div>
+    </div>
+</div>
+<script>
+    var tablinks =  document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName('tab-contents');
+    
+    function opentab(tabname){
+        for (tablink of tablinks){
+            tablink.classList.remove("active-link");
+
+        }
+       
+            for (tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+        }
+    
